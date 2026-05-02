@@ -1,10 +1,15 @@
-# frontend
-frontend/node_modules/
-frontend/dist/
+# root
+.venv/
+node_modules/
+dist/
 
 # backend
 backend/.venv/
 backend/__pycache__/
+
+# frontend
+frontend/node_modules/
+frontend/dist/
 
 # misc
 .env
