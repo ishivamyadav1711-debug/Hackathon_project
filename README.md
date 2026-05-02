@@ -56,3 +56,8 @@ npm run dev
 
 Frontend: http://localhost:5173  
 Backend: http://127.0.0.1:8000/data
+
+## 📦 Requirements
+
+- Python 3.10+
+- Node.js 18+
