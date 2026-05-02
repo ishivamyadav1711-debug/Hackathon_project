@@ -1,10 +1,10 @@
 # ⚡ Smart Energy Optimization Dashboard
 
 ## 🚀 Overview
-This project is a real-time energy monitoring and optimization system.
+This project is a real-time energy monitoring system.
 
-It shows:
-- Live power usage
+### Features:
+- Live power tracking
 - Efficiency score
 - Energy waste detection
 - Cost estimation
@@ -14,36 +14,45 @@ It shows:
 ## 🛠 Tech Stack
 - Frontend: React + Chart.js + Tailwind
 - Backend: FastAPI (Python)
-- Data: Simulated real-time sensor values
 
 ---
 
-## 📊 Features
-- Real-time power graph
-- Waste detection system
-- Efficiency scoring
-- Optimization trigger button
+## ▶️ How to Run
+
+### 1️⃣ Clone repo
+git clone https://github.com/ishivamyadav1711-debug/Hackathon_project.git
+
+cd Hackathon_project
 
 ---
 
-## ⚙️ How to Run
+### 2️⃣ Backend Setup
 
-### Backend
 cd backend
+
+python -m venv .venv
+
+.\.venv\Scripts\activate
+
 pip install fastapi uvicorn
+
 python -m uvicorn main:app --reload
 
-### Frontend
+---
+
+### 3️⃣ Frontend Setup
+
+open new terminal
+
 cd frontend
+
 npm install
+
 npm run dev
 
 ---
 
-## 📸 Output
-(AMAN Add screenshots here later)
+## 🌐 Open in browser
 
----
-
-## 👨‍💻 Author
-Shivam Yadav
+Frontend: http://localhost:5173  
+Backend: http://127.0.0.1:8000/data
