@@ -41,7 +41,7 @@ npm run dev
 ---
 
 ## 📸 Output
-(Add screenshots here later)
+(AMAN Add screenshots here later)
 
 ---
 
